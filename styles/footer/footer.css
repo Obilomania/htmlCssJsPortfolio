@@ -1,0 +1,17 @@
+.footer-container{
+    height:5vh;
+    width:100%;
+    color:var(--primary);
+    font-size: .8rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:.5rem;
+    border-top: 1px solid var(--primary);
+}
+
+@media screen and (max-width: 600px){
+    .footer-container{
+        font-size: .6rem;
+    }
+}
